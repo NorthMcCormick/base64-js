@@ -1,0 +1,11 @@
+{
+    "name": "base64",
+    "version": "1.0",
+    "description": "Base64 polyfill",
+    "maintainers": [],
+    "keywords": [],
+    "license": "MIT",
+    "homepage": "http://textangular.com",
+    "main": "./base64.js"
+  }
+  
