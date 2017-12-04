@@ -1,0 +1,17 @@
+{
+  "name": "base64",
+  "description": "Base64 polyfill",
+  "main": "./base64.js",
+  "authors": [
+    "North McCormick <north@checkster.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/NorthMcCormick/base64-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
