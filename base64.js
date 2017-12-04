@@ -1,11 +1,6 @@
-(function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define([], function() {factory(root);});
-    } else factory(root);
-// node.js has always supported base64 conversions, while browsers that support
-// web workers support base64 too, but you may never know.
-})(typeof exports !== "undefined" ? exports : this, function(root) {
+(function (factory) {
+    factory(window);
+})(window, function(root) {
     if (root.atob) {
         // Some browsers' implementation of atob doesn't support whitespaces
         // in the encoded string (notably, IE). This wraps the native atob
