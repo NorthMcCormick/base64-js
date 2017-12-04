@@ -1,6 +1,6 @@
 (function (factory) {
     factory(window);
-})(window, function(root) {
+})(function(root) {
     if (root.atob) {
         // Some browsers' implementation of atob doesn't support whitespaces
         // in the encoded string (notably, IE). This wraps the native atob
